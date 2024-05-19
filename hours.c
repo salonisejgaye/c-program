@@ -3,7 +3,7 @@
 void main ()
 {
     int sec,min,hour;
-    printf("enter seconds");
+    printf("enter seconds : ");
     scanf("%d",&sec);
     hour=sec/3600;
     min=(sec-(3600*hour))/60;

@@ -11,8 +11,9 @@ void main()
     days=days%30;
     weeks=days/7;
     days=days%7;
-    printf("years = %d \n",years);
+    /*printf("years = %d \n",years);
     printf("months = %d \n",months);
     printf("weeks = %d \n",weeks);
-    printf("days = %d \n",days);
+    printf("days = %d \n",days);*/
+    printf("%d%d%d%d",years,month,weeks,days);
 }

@@ -7,10 +7,10 @@ void main()
     scanf("%d%d",&a,&b);
     if(a>b)
     {
-        printf("a is greatest than b");
+        printf("%d is greatest",a);
     }
     else
     {
-        printf("b is greatest than a");
+        printf("%d is greatest",b);
     }
 }

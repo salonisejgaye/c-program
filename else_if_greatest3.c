@@ -1,4 +1,4 @@
-//wap to find greatest no. btw 3 no. with the help of & operator
+//wap to find greatest no. btw 3 no. with the help of && operator
 #include<stdio.h>
 void main()
 {
@@ -9,7 +9,7 @@ void main()
     {
         printf("greatest no = %d",n1);
     }
-    else if(n2>n1 && n2>n3)
+    else if(n2>n3)
     {
         printf("greatest no = %d",n2);
     }

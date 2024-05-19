@@ -22,7 +22,6 @@ void main()
     two=notes/2;
     notes=notes%2;
     one=notes/1;
-   // notes=notes%1;
     printf("500 = %d \n",fh);
     printf("200 = %d \n",th);
     printf("100 = %d \n",oh);

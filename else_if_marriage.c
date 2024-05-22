@@ -2,38 +2,44 @@
 #include<stdio.h>
 void main()
 {
-    char status,gender,age;
-    printf("Enter marriage status : ");
+    char status,gender;
+    int age;
+    printf("Press 's' for single or press 'm' for married : ");
     scanf("%c",&status);
     if(status=='s')
     {
-        printf("Enter gender : ");
-        scanf("%c",&gender);
+        printf("press 'F' for female  or press 'M' for male : ");
+        //getchar();
+        scanf(" %c",&gender);
         if(gender=='M')
         {
-            printf("Enter age : ");
-            scanf("%c",&age);
+            printf("Enter your age : ");
+            scanf("%d",&age);
             if(age>=21)
             {
-                printf("He is eligible for marriage");
+                printf("You are eligible for marriage");
             }
             else
             {
-                printf("He is not eligible for marriage");
+                printf("Ypu are not eligible for marriage");
             }
         }
         else if(gender=='F')
         {
             printf("Enter age : ");
-            scanf("%c",&age);
+            scanf("%d",&age);
             if(age>=18)
             {
-                printf("She is eligible for marriage");
+                printf("You are eligible for marriage");
             }
             else
             {
-                printf("She is not eligible for marriage");
+                printf("You are not eligible for marriage");
             }
+        }
+        else
+        {
+            printf("Please enter gender for male or female");
         }
     }
     else if(status=='m')

@@ -11,7 +11,10 @@ void main()
         printf("press 'F' for female  or press 'M' for male : ");
         //getchar();
         scanf(" %c",&gender);
+<<<<<<< HEAD
         //gender=getchar();
+=======
+>>>>>>> 64cebb9a4e5066ad135a32026d06365e5001a22b
         if(gender=='M')
         {
             printf("Enter your age : ");
@@ -22,7 +25,11 @@ void main()
             }
             else
             {
+<<<<<<< HEAD
                 printf("You are not eligible for marriage");
+=======
+                printf("Ypu are not eligible for marriage");
+>>>>>>> 64cebb9a4e5066ad135a32026d06365e5001a22b
             }
         }
         else if(gender=='F')

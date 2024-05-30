@@ -7,6 +7,6 @@ void main()
     for(i=1;i<=10;i++)
     {
         tab=i*num;
-        printf("%d * %d = %d\n",2,i,tab);
+        printf("%d * %d = %d\n",num,i,tab);
     }
 }
